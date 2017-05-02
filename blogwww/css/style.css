@@ -1,0 +1,107 @@
+body{
+	font: 15px/1.5 Arial;
+	padding: 0;
+	margin: 0;
+	background-color: #6c8cc1;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+/*Styles of the slider*/
+
+#slider{
+	color: #ffffff;
+	text-align:center;
+	min-height:400px;
+	background: url("../img/slider.jpg");
+	border-bottom: #262626 3px solid;
+}
+
+#slider h1{
+	font-size: 38px;
+	margin-bottom: 0px: 
+}
+
+#slider p{
+	font-size: 22px;
+}
+
+/*Styles of header*/
+
+header{
+	background: #262626;
+	color: #ffffff;
+	text-align:left;
+	padding-top: 30px:
+	min-height: 70px;
+}
+
+header nav{
+	float:right;
+	margin-top:30px;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16;
+}
+
+header ul{
+	padding: 0;
+	margin: 0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #title{
+	float: left;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/*Styles of footer*/
+
+footer{
+	color: #ffffff;
+	background: #262626;
+	min-height: 100px;
+}
+
+footer a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+footer li{
+	display: inline;
+ 	float: left;
+}
+
+
+/*Styles of boxes in the middle section of the page*/
+
+#skills{
+	margin-top: 20px;
+}
+
+#skills .box{
+	float: left;
+	width:30%;
+}
+
+#skills .box img{
+	height: 90px;
+}
